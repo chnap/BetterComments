@@ -1,0 +1,32 @@
+[bettercomments]
+ignored_directories = [
+  ".git",
+  ".hg",
+  ".svn",
+  ".github",
+  "node_modules",
+  "vendor",
+  ".venv",
+  "venv",
+  "__pycache__",
+  ".tox",
+  ".nox",
+  ".mypy_cache",
+  ".pytest_cache",
+  ".ruff_cache",
+  "dist",
+  "build",
+  "coverage",
+  "htmlcov",
+  "target",
+  ".idea",
+  ".vscode",
+]
+max_file_size = 2000000
+max_comment_length = 100
+backup_suffix = ".bak"
+
+# Add exact, deterministic project rules with repeated [[rules]] tables.
+# [[rules]]
+# match = "Project-specific phrase"
+# replacement = "Concise English phrase."
